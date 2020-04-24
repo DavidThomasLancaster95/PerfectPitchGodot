@@ -1,0 +1,259 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Choose.gd" type="Script" id=1]
+
+[node name="ChooseHomeNode" type="Node"]
+script = ExtResource( 1 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_left = 164.456
+margin_top = 82.811
+margin_right = 204.456
+margin_bottom = 516.811
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CNode" type="Label" parent="VBoxContainer"]
+margin_top = 9.0
+margin_right = 40.0
+margin_bottom = 23.0
+size_flags_vertical = 6
+text = "C"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CSNode" type="Label" parent="VBoxContainer"]
+margin_top = 45.0
+margin_right = 40.0
+margin_bottom = 59.0
+rect_pivot_offset = Vector2( 46.5407, 72.9886 )
+size_flags_vertical = 6
+text = "C#"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="DNode" type="Label" parent="VBoxContainer"]
+margin_top = 81.0
+margin_right = 40.0
+margin_bottom = 95.0
+rect_pivot_offset = Vector2( 41.8753, 31 )
+size_flags_vertical = 6
+text = "D"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="DSNode" type="Label" parent="VBoxContainer"]
+margin_top = 117.0
+margin_right = 40.0
+margin_bottom = 131.0
+rect_pivot_offset = Vector2( 46.5407, -8.65596 )
+size_flags_vertical = 6
+text = "D#"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ENode" type="Label" parent="VBoxContainer"]
+margin_top = 153.0
+margin_right = 40.0
+margin_bottom = 167.0
+rect_pivot_offset = Vector2( 44.208, -47.1456 )
+size_flags_vertical = 6
+text = "E"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="FNode" type="Label" parent="VBoxContainer"]
+margin_top = 189.0
+margin_right = 40.0
+margin_bottom = 203.0
+rect_pivot_offset = Vector2( 39.5426, -89.1342 )
+size_flags_vertical = 6
+text = "F"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="FSNode" type="Label" parent="VBoxContainer"]
+margin_top = 225.0
+margin_right = 40.0
+margin_bottom = 239.0
+rect_pivot_offset = Vector2( 46.5407, 72.9886 )
+size_flags_vertical = 6
+text = "F#"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GNode" type="Label" parent="VBoxContainer"]
+margin_top = 261.0
+margin_right = 40.0
+margin_bottom = 275.0
+rect_pivot_offset = Vector2( 41.8753, 31 )
+size_flags_vertical = 6
+text = "G"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GSNode" type="Label" parent="VBoxContainer"]
+margin_top = 297.0
+margin_right = 40.0
+margin_bottom = 311.0
+rect_pivot_offset = Vector2( 46.5407, -8.65596 )
+size_flags_vertical = 6
+text = "G#"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ANode" type="Label" parent="VBoxContainer"]
+margin_top = 333.0
+margin_right = 40.0
+margin_bottom = 347.0
+rect_pivot_offset = Vector2( 44.208, -47.1456 )
+size_flags_vertical = 6
+text = "A"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ASNode" type="Label" parent="VBoxContainer"]
+margin_top = 369.0
+margin_right = 40.0
+margin_bottom = 383.0
+rect_pivot_offset = Vector2( 39.5426, -89.1342 )
+size_flags_vertical = 6
+text = "A#"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BNode2" type="Label" parent="VBoxContainer"]
+margin_top = 407.0
+margin_right = 40.0
+margin_bottom = 421.0
+rect_pivot_offset = Vector2( 39.5426, -89.1342 )
+size_flags_vertical = 6
+text = "B"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="."]
+margin_left = 194.0
+margin_top = 82.0
+margin_right = 244.0
+margin_bottom = 516.0
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="CCheck" type="CheckBox" parent="VBoxContainer2"]
+margin_right = 50.0
+margin_bottom = 32.0
+size_flags_vertical = 3
+
+[node name="CSCheck" type="CheckBox" parent="VBoxContainer2"]
+margin_top = 36.0
+margin_right = 50.0
+margin_bottom = 68.0
+size_flags_vertical = 3
+
+[node name="DCheck" type="CheckBox" parent="VBoxContainer2"]
+margin_top = 72.0
+margin_right = 50.0
+margin_bottom = 104.0
+size_flags_vertical = 3
+
+[node name="DSCheck" type="CheckBox" parent="VBoxContainer2"]
+margin_top = 108.0
+margin_right = 50.0
+margin_bottom = 140.0
+size_flags_vertical = 3
+
+[node name="ECheck" type="CheckBox" parent="VBoxContainer2"]
+margin_top = 144.0
+margin_right = 50.0
+margin_bottom = 176.0
+size_flags_vertical = 3
+
+[node name="FCheck" type="CheckBox" parent="VBoxContainer2"]
+margin_top = 180.0
+margin_right = 50.0
+margin_bottom = 212.0
+size_flags_vertical = 3
+
+[node name="FSCheck" type="CheckBox" parent="VBoxContainer2"]
+margin_top = 216.0
+margin_right = 50.0
+margin_bottom = 248.0
+size_flags_vertical = 3
+
+[node name="GCheck" type="CheckBox" parent="VBoxContainer2"]
+margin_top = 252.0
+margin_right = 50.0
+margin_bottom = 284.0
+size_flags_vertical = 3
+
+[node name="GSCheck" type="CheckBox" parent="VBoxContainer2"]
+margin_top = 288.0
+margin_right = 50.0
+margin_bottom = 320.0
+size_flags_vertical = 3
+
+[node name="ACheck" type="CheckBox" parent="VBoxContainer2"]
+margin_top = 324.0
+margin_right = 50.0
+margin_bottom = 356.0
+size_flags_vertical = 3
+
+[node name="ASCheck" type="CheckBox" parent="VBoxContainer2"]
+margin_top = 360.0
+margin_right = 50.0
+margin_bottom = 392.0
+size_flags_vertical = 3
+
+[node name="BCheck" type="CheckBox" parent="VBoxContainer2"]
+margin_top = 396.0
+margin_right = 50.0
+margin_bottom = 434.0
+size_flags_vertical = 3
+
+[node name="ReturnButton" type="Button" parent="."]
+margin_left = 391.0
+margin_top = 236.0
+margin_right = 587.0
+margin_bottom = 293.0
+text = "Save and Return"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="warning" type="Label" parent="."]
+margin_left = 426.505
+margin_top = 316.834
+margin_right = 569.505
+margin_bottom = 354.834
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="toggled" from="VBoxContainer2/CCheck" to="." method="_on_CCheck_toggled"]
+[connection signal="toggled" from="VBoxContainer2/CSCheck" to="." method="_on_CSCheck_toggled"]
+[connection signal="toggled" from="VBoxContainer2/DCheck" to="." method="_on_DCheck_toggled"]
+[connection signal="toggled" from="VBoxContainer2/DSCheck" to="." method="_on_DSCheck_toggled"]
+[connection signal="toggled" from="VBoxContainer2/ECheck" to="." method="_on_ECheck_toggled"]
+[connection signal="toggled" from="VBoxContainer2/FCheck" to="." method="_on_FCheck_toggled"]
+[connection signal="toggled" from="VBoxContainer2/FSCheck" to="." method="_on_FSCheck_toggled"]
+[connection signal="toggled" from="VBoxContainer2/GCheck" to="." method="_on_GCheck_toggled"]
+[connection signal="toggled" from="VBoxContainer2/GSCheck" to="." method="_on_GSCheck_toggled"]
+[connection signal="toggled" from="VBoxContainer2/ACheck" to="." method="_on_ACheck_toggled"]
+[connection signal="toggled" from="VBoxContainer2/ASCheck" to="." method="_on_ASCheck_toggled"]
+[connection signal="toggled" from="VBoxContainer2/BCheck" to="." method="_on_BCheck_toggled"]
+[connection signal="pressed" from="ReturnButton" to="." method="_on_ReturnButton_pressed"]

@@ -1,0 +1,66 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Start.gd" type="Script" id=1]
+[ext_resource path="res://MainScene.gd" type="Script" id=2]
+
+[node name="MasterNode" type="Node"]
+script = ExtResource( 1 )
+
+[node name="MainScene" type="Node" parent="."]
+script = ExtResource( 2 )
+
+[node name="StartButton" type="Button" parent="MainScene"]
+margin_left = 422.821
+margin_top = 184.101
+margin_right = 581.821
+margin_bottom = 257.1
+text = "Start"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="MainScene"]
+margin_left = 452.289
+margin_top = 283.905
+margin_right = 556.289
+margin_bottom = 377.905
+text = "10"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Increment" type="Button" parent="MainScene"]
+margin_left = 545.052
+margin_top = 312.7
+margin_right = 584.052
+margin_bottom = 359.7
+text = "+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Decrement" type="Button" parent="MainScene"]
+margin_left = 431.024
+margin_top = 312.17
+margin_right = 470.024
+margin_bottom = 359.17
+text = "-"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ChooseNotesButton" type="Button" parent="MainScene"]
+margin_left = 431.093
+margin_top = 403.44
+margin_right = 592.093
+margin_bottom = 471.44
+text = "Choose Notes"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="MainScene/StartButton" to="MainScene" method="_on_StartButton_pressed"]
+[connection signal="pressed" from="MainScene/Increment" to="MainScene" method="_on_Increment_pressed"]
+[connection signal="pressed" from="MainScene/Decrement" to="MainScene" method="_on_Decrement_pressed"]
+[connection signal="pressed" from="MainScene/ChooseNotesButton" to="MainScene" method="_on_ChooseNotesButton_pressed"]

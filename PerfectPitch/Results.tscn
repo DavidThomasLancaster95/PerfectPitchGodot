@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Results.gd" type="Script" id=1]
+
+[node name="Node" type="Node"]
+script = ExtResource( 1 )
+
+[node name="Results" type="Label" parent="."]
+margin_left = 443.083
+margin_top = 155.211
+margin_right = 588.083
+margin_bottom = 214.211
+text = "Results"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = 360.978
+margin_top = 271.46
+margin_right = 673.978
+margin_bottom = 406.46
+text = "End Game"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

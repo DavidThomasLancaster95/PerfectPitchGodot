@@ -1,0 +1,177 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Test.gd" type="Script" id=1]
+
+[node name="TestHomeNode" type="Node"]
+script = ExtResource( 1 )
+
+[node name="window" type="Label" parent="."]
+margin_left = 194.824
+margin_top = 255.327
+margin_right = 278.824
+margin_bottom = 314.327
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="QuitButton" type="Button" parent="."]
+margin_left = 855.698
+margin_top = 25.6482
+margin_right = 965.698
+margin_bottom = 70.6482
+text = "Quit"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ReplayToneButton" type="Button" parent="."]
+margin_left = 435.457
+margin_top = 208.31
+margin_right = 587.457
+margin_bottom = 257.31
+text = "Replay Tone"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ScoreLabel" type="Label" parent="."]
+margin_left = 464.432
+margin_top = 280.892
+margin_right = 554.432
+margin_bottom = 324.892
+text = "Score"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ProgressLabel" type="Label" parent="."]
+margin_left = 37.6732
+margin_top = 33.241
+margin_right = 138.673
+margin_bottom = 90.241
+text = "Progress
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+margin_left = 322.488
+margin_top = 328.756
+margin_right = 728.488
+margin_bottom = 389.756
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CButton" type="Button" parent="HBoxContainer"]
+margin_right = 64.0
+margin_bottom = 61.0
+size_flags_horizontal = 3
+text = "C"
+
+[node name="CSButton" type="Button" parent="HBoxContainer"]
+margin_left = 68.0
+margin_right = 132.0
+margin_bottom = 61.0
+size_flags_horizontal = 3
+text = "C#"
+
+[node name="DButton" type="Button" parent="HBoxContainer"]
+margin_left = 136.0
+margin_right = 200.0
+margin_bottom = 61.0
+size_flags_horizontal = 3
+text = "D"
+
+[node name="DSButton" type="Button" parent="HBoxContainer"]
+margin_left = 204.0
+margin_right = 268.0
+margin_bottom = 61.0
+size_flags_horizontal = 3
+text = "D#"
+
+[node name="EButton" type="Button" parent="HBoxContainer"]
+margin_left = 272.0
+margin_right = 336.0
+margin_bottom = 61.0
+size_flags_horizontal = 3
+text = "E"
+
+[node name="FButton" type="Button" parent="HBoxContainer"]
+margin_left = 340.0
+margin_right = 405.0
+margin_bottom = 61.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "F"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="."]
+margin_left = 327.0
+margin_top = 424.0
+margin_right = 729.0
+margin_bottom = 494.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="FSButton" type="Button" parent="HBoxContainer2"]
+margin_right = 63.0
+margin_bottom = 70.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "F#"
+
+[node name="GButton" type="Button" parent="HBoxContainer2"]
+margin_left = 67.0
+margin_right = 130.0
+margin_bottom = 70.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "G"
+
+[node name="GSButton" type="Button" parent="HBoxContainer2"]
+margin_left = 134.0
+margin_right = 197.0
+margin_bottom = 70.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "G#"
+
+[node name="AButton" type="Button" parent="HBoxContainer2"]
+margin_left = 201.0
+margin_right = 264.0
+margin_bottom = 70.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "A"
+
+[node name="ASButton" type="Button" parent="HBoxContainer2"]
+margin_left = 268.0
+margin_right = 331.0
+margin_bottom = 70.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "A#"
+
+[node name="BButton" type="Button" parent="HBoxContainer2"]
+margin_left = 335.0
+margin_right = 402.0
+margin_bottom = 70.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "B"
+[connection signal="pressed" from="QuitButton" to="." method="_on_QuitButton_pressed"]
+[connection signal="pressed" from="ReplayToneButton" to="." method="_on_ReplayToneButton_pressed"]
+[connection signal="pressed" from="HBoxContainer/CButton" to="." method="_on_CButton_pressed"]
+[connection signal="pressed" from="HBoxContainer/CSButton" to="." method="_on_CSButton_pressed"]
+[connection signal="pressed" from="HBoxContainer/DButton" to="." method="_on_DButton_pressed"]
+[connection signal="pressed" from="HBoxContainer/DSButton" to="." method="_on_DSButton_pressed"]
+[connection signal="pressed" from="HBoxContainer/EButton" to="." method="_on_EButton_pressed"]
+[connection signal="pressed" from="HBoxContainer/FButton" to="." method="_on_FButton_pressed"]
+[connection signal="pressed" from="HBoxContainer2/FSButton" to="." method="_on_FSButton_pressed"]
+[connection signal="pressed" from="HBoxContainer2/GButton" to="." method="_on_GButton_pressed"]
+[connection signal="pressed" from="HBoxContainer2/GSButton" to="." method="_on_GSButton_pressed"]
+[connection signal="pressed" from="HBoxContainer2/AButton" to="." method="_on_AButton_pressed"]
+[connection signal="pressed" from="HBoxContainer2/ASButton" to="." method="_on_ASButton_pressed"]
+[connection signal="pressed" from="HBoxContainer2/BButton" to="." method="_on_BButton_pressed"]
